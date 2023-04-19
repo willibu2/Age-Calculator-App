@@ -1,0 +1,10 @@
+.inputs-container {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 700px) {
+  .inputs-container {
+    gap: 1rem;
+  }
+}
